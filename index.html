@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Daniels | Bootstrap Website</title>
+</head>
+
+<body>
+    <!------N A V I G A T I O N------->
+
+    <div id="sideBar">
+        <div class="box">
+            <h4>Choose Your Color :</h4>
+            <span class="color-item"></span>
+            <span class="color-item"></span>
+            <span class="color-item"></span>
+            <span class="color-item"></span>
+            <span class="color-item"></span>
+        </div>
+        <i class="fa-solid fa-gear"></i>
+    </div>
+
+    <section id="loading">
+        <i class="fas fa-spinner fa-3x fa-spin"></i>
+    </section>
+
+    <button id="btnUp" class="btn bg-danger text-white rounded-circle">
+        <i class="fas fa-arrow-alt-circle-up"></i>
+    </button>
+
+    <nav id="nav-bar" class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container ps-5 mt-3">
+            <a class="navbar-brand fs-5 fw-bolder icon-color" href="#">DANIELS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse pe-5" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-1 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link m-2 text-light line" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light m-2" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light m-2" href="#service">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light m-2" href="#works">Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light m-2" href="#clients">Clients</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light m-2" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light m-2" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!------------H E A D E R------------ -->
+
+    <header id="home" class="d-flex justify-content-center align-items-center text-center">
+        <div class="header-content text-white">
+            <div class="header-title">
+                <h2>Hello</h2>
+                <h1>I Am&nbsp;</h1>
+            </div>
+            <div class="header-social">
+                <a href="">
+                    <span class="social-circle">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </span>
+                </a>
+                <a href="">
+                    <span class="social-circle">
+                        <i class="fa-brands fa-twitter"></i>
+                    </span>
+                </a>
+                <a href="">
+                    <span class="social-circle">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </span>
+                </a>
+                <a href="">
+                    <span class="social-circle">
+                        <i class="fa-brands fa-behance"></i>
+                    </span>
+                </a>
+                <a href="">
+                    <span class="social-circle">
+                        <i class="fa-brands fa-youtube"></i>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-----A B O U T----->
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12 offset-md-1 offset-0">
+                    <div class="col-img">
+                        <img class="img-fluid mb-md-0 mb-sm-5" src="./img/hero.jpg" alt="" />
+                    </div>
+                </div>
+                <div class="col-md-7 col-sm-12">
+                    <div class="col-content">
+                        <h3>About Me.</h3>
+                        <p class="change">UI / UX DESIGNER & WEB DEVELOPER</p>
+                        <p class="text-muted">
+                            I am <b>Jerry Daniels</b> Lorem Ipsum is simply dummy text of
+                            the printing and typesetting industry. Lorem Ipsum has been the
+                            industry's standard dummy text ever It has survived not only
+                            five centuries, but also the leap into electronic but also the
+                            leap into electronic typesetting, remaining essentially
+                            unchanged. It was popularised in the 1960s with the release of
+                            Letraset sheets containing
+                        </p>
+                        <div class="bar-progress">
+                            <div class="bar-container">
+                                <div class="bar-1">
+                                    <span>Web Design </span>
+                                    <span class="float"> 95% </span>
+                                </div>
+                            </div>
+                            <div class="bar-container">
+                                <div class="bar-2">
+                                    <span>Branding </span>
+                                    <span class="float"> 80% </span>
+                                </div>
+                            </div>
+                            <div class="bar-container">
+                                <div class="bar-3">
+                                    <span>Development </span>
+                                    <span class="float"> 90% </span>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="btn"> Download C.V </a>
+                        <a href="#" class="btn custom"> Contact me </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear-fix"></div>
+    </section>
+
+    <!----------S E R V I C E S----------->
+
+    <section id="service">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Services.</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <div class="box-container">
+                        <div class="icon-item">
+                            <span>
+                                <i class="fa-solid fa-tv"></i>
+                            </span>
+                        </div>
+                        <h2>Web Design</h2>
+                        <p class="change">
+                            Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
+                            industry's standard dummy text ever
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="box-container">
+                        <div class="icon-item">
+                            <span>
+                                <i class="fa-solid fa-bullhorn"></i>
+                            </span>
+                        </div>
+                        <h2>Branding</h2>
+                        <p class="change">
+                            Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
+                            industry's standard dummy text ever
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="box-container">
+                        <div class="icon-item">
+                            <span>
+                                <i class="fa-solid fa-umbrella"></i>
+                            </span>
+                        </div>
+                        <h2>Development</h2>
+                        <p class="change">
+                            Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
+                            industry's standard dummy text ever
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="box-container">
+                        <div class="icon-item">
+                            <span>
+                                <i class="fa-regular fa-gem"></i>
+                            </span>
+                        </div>
+                        <h2>Creative Design</h2>
+                        <p class="change">
+                            Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
+                            industry's standard dummy text ever
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="box-container">
+                        <div class="icon-item">
+                            <span>
+                                <i class="fa-solid fa-display"></i>
+                            </span>
+                        </div>
+                        <h2>Fully Responsive</h2>
+                        <p class="change"> 
+                            Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
+                            industry's standard dummy text ever
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="box-container">
+                        <div class="icon-item">
+                            <span>
+                                <i class="fa-solid fa-camera"></i>
+                            </span>
+                        </div>
+                        <h2>Retina Ready</h2>
+                        <p class="change">
+                            Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
+                            industry's standard dummy text ever
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--------P O R T F O L I O--------->
+    <section id="works">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Portfolio.</h2>
+            </div>
+            <div class="portfolio-links text-center">
+                <a class="line-1" href="#">All</a>
+                <a href="#">Brand</a>
+                <a href="#">Design</a>
+                <a href="#">Graphic</a>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 media-Q">
+                    <div class="portfolio-container">
+                        <div class="portfolio-img">
+                            <img class="img-fluid" src="./img/portfolio/1.jpg" alt="" />
+                        </div>
+                        <div class="portfolio-img-overlay">
+                            <div class="portfolio-title">
+                                <h6>WEB DESIGN</h6>
+                                <div class="portfolio-icon">
+                                    <span>
+                                        <a href="#">
+                                            <i class="fa-solid fa-link-slash"></i>
+                                        </a>
+                                    </span>
+                                    <span>
+                                        <a href="#">
+                                            <i class="fa-brands fa-searchengin"></i>
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 media-Q">
+                    <div class="portfolio-container">
+                        <div class="portfolio-img">
+                            <img class="img-fluid" src="./img/portfolio/2.jpg" alt="" />
+                        </div>
+                        <div class="portfolio-img-overlay">
+                            <div class="portfolio-title">
+                                <h6>WEB DESIGN</h6>
+                                <div class="portfolio-icon">
+                                    <span>
+                                        <a href="#">
+                                            <i class="fa-solid fa-link-slash"></i>
+                                        </a>
+                                    </span>
+                                    <span>
+                                        <a href="#">
+                                            <i class="fa-brands fa-searchengin"></i>
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 media-Q">
+                    <div class="portfolio-container">
+                        <div class="portfolio-img">
+                            <img class="img-fluid" src="./img/portfolio/3.jpg" alt="" />
+                        </div>
+                        <div class="portfolio-img-overlay">
+                            <div class="portfolio-title">
+                                <h6>WEB DESIGN</h6>
+                                <div class="portfolio-icon">
+                                    <span>
+                                        <a href="#">
+                                            <i class="fa-solid fa-link-slash"></i>
+                                        </a>
+                                    </span>
+                                    <span>
+                                        <a href="#">
+                                            <i class="fa-brands fa-searchengin"></i>
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 media-Q">
+                    <div class="portfolio-container">
+                        <div class="portfolio-img">
+                            <img class="img-fluid" src="./img/portfolio/4.jpg" alt="" />
+                        </div>
+                        <div class="portfolio-img-overlay">
+                            <div class="portfolio-title">
+                                <h6>WEB DESIGN</h6>
+                                <div class="portfolio-icon">
+                                    <span>
+                                        <a href="#">
+                                            <i class="fa-solid fa-link-slash"></i>
+                                        </a>
+                                    </span>
+                                    <span>
+                                        <a href="#">
+                                            <i class="fa-brands fa-searchengin"></i>
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 media-Q">
+                    <div class="portfolio-container">
+                        <div class="portfolio-img">
+                            <img class="img-fluid" src="./img/portfolio/5.jpg" alt="" />
+                        </div>
+                        <div class="portfolio-img-overlay">
+                            <div class="portfolio-title">
+                                <h6>WEB DESIGN</h6>
+                                <div class="portfolio-icon">
+                                    <span>
+                                        <a href="#">
+                                            <i class="fa-solid fa-link-slash"></i>
+                                        </a>
+                                    </span>
+                                    <span>
+                                        <a href="#">
+                                            <i class="fa-brands fa-searchengin"></i>
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 media-Q">
+                    <div class="portfolio-container">
+                        <div class="portfolio-img">
+                            <img class="img-fluid" src="./img/portfolio/6.jpg" alt="" />
+                        </div>
+                        <div class="portfolio-img-overlay">
+                            <div class="portfolio-title">
+                                <h6>WEB DESIGN</h6>
+                                <div class="portfolio-icon">
+                                    <span>
+                                        <a href="#">
+                                            <i class="fa-solid fa-link-slash"></i>
+                                        </a>
+                                    </span>
+                                    <span>
+                                        <a href="#">
+                                            <i class="fa-brands fa-searchengin"></i>
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-----T E S T I M O N I A L S---->
+
+    <section id="clients">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Testimonials.</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-indicators buttom">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="testimonial">
+                                    <p class="change">
+                                        Lorem Ipsum has been the industry's standard dummy text
+                                        ever since the when an unknown printer took a galley of
+                                        type <br> and scrambled it to make a type specimen book.
+                                    </p>
+                                    <h6>Alex Smith</h6>
+                                    <b class="text-muted">Envato Customer</b>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonial">
+                                    <p class="change">
+                                        Lorem Ipsum has been the industry's standard dummy text
+                                        ever since the when an unknown printer took a galley of
+                                        type <br> and scrambled it to make a type specimen book.
+                                    </p>
+                                    <h6>Alex Smith</h6>
+                                    <b class="text-muted">Envato Customer</b>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonial">
+                                    <p class="change">
+                                        Lorem Ipsum has been the industry's standard dummy text
+                                        ever since the when an unknown printer took a galley of
+                                        type <br> and scrambled it to make a type specimen book.
+                                    </p>
+                                    <h6>Alex Smith</h6>
+                                    <b class="text-muted">Envato Customer</b>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-----------S T A T S----------- -->
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-12">
+                    <div class="stats text-center">
+                        <span>
+                            <i class="fa-solid fa-users"></i>
+                            <h2>850</h2>
+                            <p class="change">Happy Customers</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <div class="stats text-center">
+                        <span>
+                            <i class="fa-solid fa-thumbs-up"></i>
+                            <h2>850</h2>
+                            <p class="change">Happy Customers</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <div class="stats text-center">
+                        <span>
+                            <i class="fa-solid fa-bullhorn"></i>
+                            <h2>850</h2>
+                            <p class="change">Happy Customers</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <div class="stats text-center">
+                        <span>
+                            <i class="fa-solid fa-cloud-arrow-down"></i>
+                            <h2>850</h2>
+                            <p class="change">Happy Customers</p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--------B L O G--------->
+
+    <section id="blog">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Our Blog.</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-12 mb-sm-5 media-Q1">
+                        <div class="blog-card">
+                            <div class="blog-img">
+                                <img class="img-fluid" src="./img/blog/1.jpg" alt="">
+                            </div>
+                            <div class="blog-content ms-3">
+                                <h6>
+                                    <a class="text-muted" href="#">
+                                        WordPress
+                                    </a>
+                                </h6>
+                                <h4>
+                                    <a href="#">
+                                        Top WordPress Themes and Plugins for Hotels, Travel, and
+                                    </a>
+                                </h4>
+                                <span>
+                                    <a href="#">Read More</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-md-3 col-sm-12 mb-sm-5 media-Q1">
+                        <div class="blog-card">
+                            <div class="blog-img">
+                                <img class="img-fluid" src="./img/blog/2.jpg" alt="">
+                            </div>
+                            <div class="blog-content ms-3">
+                                <h6>
+                                    <a class="text-muted" href="#">
+                                        Trends
+                                    </a>
+                                </h6>
+                                <h4>
+                                    <a href="#">
+                                        Master These Awesome New Skills in March 2018
+                                    </a>
+                                </h4>
+                                <span>
+                                    <a href="#">Read More</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-md-3 col-sm-12 mb-sm-5 media-Q1">
+                        <div class="blog-card">
+                            <div class="blog-img">
+                                <img class="img-fluid" src="./img/blog/3.jpg" alt="">
+                            </div>
+                            <div class="blog-content ms-3">
+                                <h6>
+                                    <a class="text-muted" href="#">
+                                        Themeforest
+                                    </a>
+                                </h6>
+                                <h4>
+                                    <a href="#">
+                                        The 20 Best Lightroom Presets You Need to Know About
+                                    </a>
+                                </h4>
+                                <span>
+                                    <a href="#">Read More</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-md-3 col-sm-12 mb-sm-5 media-Q1">
+                        <div class="blog-card">
+                            <div class="blog-img">
+                                <img class="img-fluid" src="./img/blog/4.jpg" alt="">
+                            </div>
+                            <div class="blog-content ms-3">
+                                <h6>
+                                    <a class="text-muted" href="#">
+                                        Trends
+                                    </a>
+                                </h6>
+                                <h4>
+                                    <a href="#">
+                                        Best Design Items to Appeal to the Millennial Generation
+                                    </a>
+                                </h4>
+                                <span>
+                                    <a href="#">Read More</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!--------C O N T A C T------->
+    
+    <section id="contact">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Contact Us.</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-3 offset-md-2 col-sm-12">
+                    <div class="contant-box text-center">
+                        <div class="icon-item">
+                            <span>
+                                <i class="fa-solid fa-location-arrow"></i>
+                            </span>
+                        </div>
+                        <h5>Address</h5>
+                        <p class="text-muted">
+                            6834 Hollywood Blvd - Los Angeles CA
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <div class="contant-box text-center">
+                        <div class="icon-item">
+                            <span>
+                                <i class="fa-solid fa-envelope"></i>
+                            </span>
+                        </div>
+                        <h5>Email</h5>
+                        <p class="text-muted">
+                            Support@website.com
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <div class="contant-box text-center">
+                        <div class="icon-item">
+                            <span>
+                                <i class="fa-solid fa-phone"></i>
+                            </span>
+                        </div>
+                        <h5>Phone</h5>
+                        <p class="text-muted">
+                            +20 010 2517 8918
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <form action="">
+                <div class="row">
+                    <div class="col-md-5 offset-md-1 col-sm-12">
+                        <input type="text" name="name" id="name" required placeholder="Name">
+                    </div>
+                    <div class="col-md-5 col-sm-12">
+                        <input type="text" name="mail" id="mail" required placeholder="Email">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-10 offset-md-1">
+                        <textarea name="" id="" rows="4" required placeholder="Message"></textarea>
+                        <a class="btn padding" href="#">Submit</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!---------F O O T E R--------->
+
+    <footer class="text-center text-muted">
+        <p>
+            Copy Right 2022 © By <a href="#">Mohamed Hamdy</a> All Rights Reserved
+        </p>
+    </footer>
+
+    <!-----J A V A --- S C R I P T ---------->
+    <script src="./js/jquery-3.6.1.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
